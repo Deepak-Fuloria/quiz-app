@@ -1,0 +1,149 @@
+*h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+}
+
+*p {
+    margin: 0;
+    margin-bottom: 0px;
+}
+
+.first-page {
+    background-image: url('https://img.freepik.com/free-vector/blue-copy-space-digital-background_23-2148821698.jpg?w=900&t=st=1691951717~exp=1691952317~hmac=2f026e80dc5edb607c75a733a625cb1c864628bb8f69e3d5786911762e6e5a54');
+
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+    .fps-1 {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        align-items: center;
+        padding: 20px;
+        padding-bottom: 0px;
+
+
+        img {
+            border-radius: 50%;
+        }
+
+        .fps-1-right {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 5px 20px;
+            border-radius: 5px;
+            color: white;
+        }
+
+        .fps-1-right>p {
+            color: goldenrod;
+            padding: 2px;
+        }
+
+    }
+
+
+    .fps-2 {
+        width: 100vw;
+        padding: 10px;
+
+        img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            object-position: center;
+            border: 2px solid rgb(86, 198, 38);
+            border-radius: 5px;
+        }
+    }
+
+
+    .fps-3 {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        background-color: rgb(35 78 108 / 72%);
+        margin: auto;
+        border: 2px solid #c9c9c9;
+        font-size: 11px;
+        color: white;
+        border-radius: 5px;
+
+        img {
+            border-radius: 50%;
+            width: 60px;
+        }
+
+        button {
+            font-size: 12px;
+            padding: 3px 30px;
+            border: none;
+            border-radius: 5px;
+            font-weight: 500;
+            background: white;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+
+    }
+
+    .fps-4 {
+        display: flex;
+        color: white;
+        font-size: 11px;
+        gap: 25px;
+        justify-content: center;
+        margin-top: 20px;
+
+        .icon {
+
+            i {
+
+                border-radius: 50%;
+                border: 1.5px solid white;
+                padding: 7px;
+                padding: 10px !important;
+                display: flex;
+                justify-content: center;
+                font-size: 36px;
+            }
+        }
+
+        p {
+            text-align: center;
+        }
+
+        img {
+            padding: 8px;
+            border: 1.5px solid white;
+            border-radius: 50%;
+        }
+    }
+
+
+    .color-crown {
+        color: #dccfae;
+    }
+
+    .color-diamond {
+        color: #eeaf0e;
+    }
+
+    .color-trophy {
+        color: #e3730a;
+    }
+
+
+}

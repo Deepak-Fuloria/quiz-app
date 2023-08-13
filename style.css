@@ -50,7 +50,7 @@ span {
 }
 .first-page .fps-2 img {
   width: 100%;
-  height: 140px;
+  height: 160px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -94,7 +94,7 @@ span {
   font-size: 12px;
   gap: 25px;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 40px;
   font-weight: 500;
 }
 .first-page .fps-4 .icon i {
@@ -108,6 +108,8 @@ span {
 }
 .first-page .fps-4 p {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .first-page .fps-4 img {
   padding: 8px;
@@ -116,6 +118,7 @@ span {
 }
 .first-page .color-crown {
   color: #dccfae;
+  width: 60px;
 }
 .first-page .color-diamond {
   color: #eeaf0e;
